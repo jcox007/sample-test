@@ -1,0 +1,27 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ],
+  "env": {
+    "DATO_API_TOKEN": {
+      "required": true
+    },
+    "PHP_ENVIRONMENT": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "sample-test",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
